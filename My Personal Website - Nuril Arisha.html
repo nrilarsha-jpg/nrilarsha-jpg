@@ -1,0 +1,298 @@
+<!DOCTYPE html>
+<!-- saved from url=(0050)file:///C:/Users/User/Desktop/test2.html#education -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Personal Website - Nuril Arisha</title>
+  <link href="./My Personal Website - Nuril Arisha_files/css2" rel="stylesheet">
+
+  <style>
+    :root{
+      --bg:#fff8f6;
+      --accent:#f4b6b9;
+      --dark:#222;
+      --muted:#666;
+      --card:#fff;
+      --shadow:0 6px 18px rgba(0,0,0,0.08);
+      --radius:12px;
+      --max-width:1100px;
+    }
+
+    *{box-sizing:border-box; margin:0; padding:0;}
+    body{
+      font-family:'Poppins', sans-serif;
+      background:linear-gradient(#fff, var(--bg));
+      color:var(--dark);
+      line-height:1.6;
+    }
+
+    /* Navigation */
+    nav{
+      background:var(--accent);
+      padding:18px 40px;
+      display:flex;
+      justify-content:space-between;
+      align-items:center;
+      position:sticky;
+      top:0;
+      z-index:10;
+    }
+    nav a{
+      text-decoration:none;
+      margin-left:18px;
+      color:var(--dark);
+      font-weight:600;
+    }
+    .btn{
+      padding:10px 16px;
+      background:#fff;
+      border-radius:8px;
+      text-decoration:none;
+      font-weight:600;
+      color:#111;
+      box-shadow:var(--shadow);
+    }
+
+    /* Hero Section */
+    .hero{
+      display:grid;
+      grid-template-columns:1fr 350px;
+      gap:40px;
+      padding:60px 40px;
+      max-width:var(--max-width);
+      margin:auto;
+      align-items:center;
+    }
+    .hero img{
+      width:100%; border-radius:16px; box-shadow:var(--shadow);
+    }
+    .hero h1{font-size:42px; margin-bottom:12px;}
+    .hero .lead{color:var(--muted); margin-bottom:20px;}
+
+    /* Sections */
+    section{padding:60px 40px;}
+    .section-title{
+      text-align:center;
+      font-size:34px;
+      font-weight:700;
+      margin-bottom:12px;
+    }
+    .muted{
+      text-align:center;
+      color:var(--muted);
+      max-width:800px;
+      margin:auto;
+      margin-bottom:40px;
+    }
+
+    /* Card Layout */
+    .card-container{
+      display:flex;
+      flex-wrap:wrap;
+      gap:22px;
+      justify-content:center;
+      max-width:var(--max-width);
+      margin:auto;
+    }
+    .card{
+      background:#ffe1e8;
+      padding:24px;
+      border-radius:14px;
+      flex:1;
+      min-width:280px;
+      max-width:460px;
+      box-shadow:var(--shadow);
+    }
+    .card h3{margin-bottom:10px;}
+
+    /* Education */
+    .edu-list{
+      display:grid;
+      gap:16px;
+      max-width:800px;
+      margin:auto;
+    }
+    .edu-item{
+      background:#fff;
+      padding:20px;
+      border-radius:14px;
+      box-shadow:var(--shadow);
+      border-left:5px solid var(--accent);
+    }
+
+    /* Family */
+    .family-grid{
+      display:grid;
+      grid-template-columns:repeat(3,1fr);
+      gap:20px;
+      max-width:900px;
+      margin:auto;
+    }
+    .family-grid img{
+      width:100%; border-radius:14px; box-shadow:var(--shadow);
+    }
+
+    /* Footer */
+    footer{
+      background:#222;
+      color:#fff;
+      text-align:center;
+      padding:20px;
+      margin-top:40px;
+    }
+
+    /* Responsive */
+    @media(max-width:900px){
+      .hero{grid-template-columns:1fr; text-align:center;}
+    }
+  </style>
+</head>
+
+<body>
+  <!-- Navigation -->
+  <nav>
+    <div class="logo"><b>&lt;Nuril Arisha&gt;</b></div>
+    <div>
+      <a href="file:///C:/Users/User/Desktop/test2.html#home">Home</a>
+      <a href="file:///C:/Users/User/Desktop/test2.html#biodata">Biodata</a>
+      <a href="file:///C:/Users/User/Desktop/test2.html#experience">Experience</a>
+      <a href="file:///C:/Users/User/Desktop/test2.html#education">Education</a>
+      <a href="file:///C:/Users/User/Desktop/test2.html#family">Family</a>
+    </div>
+     </nav>
+
+  <!-- Hero -->
+  <section id="home" class="hero">
+    <div>
+      <h1>Welcome to <br>
+	 My Personal Space</h1>
+
+      <p class="lead">Hi, I’m <strong>Nuril Arisha</strong>, an Information Management student passionate about how information is organized and used.</p>
+      <p>This website is a space where I share my journey, experiences, education, and personal interests.</p>
+      <blockquote style="margin-top:10px; font-style:italic; color:#444;">“Learn, explore, and grow. That’s how I see life.”</blockquote><br>
+         </div>
+
+<div class="card-photo" aria-hidden="false">
+        <!-- Replace the src below with your photo or keep the placeholder -->
+<img src="./My Personal Website - Nuril Arisha_files/sha.jpg" width="500" height="333">
+
+             </div>
+
+
+    
+  </section>
+
+  <!-- Biodata -->
+  <section id="biodata">
+    <h2 class="section-title">Get to Know Me Better</h2>
+    <p class="muted">My name is <strong>Nuril Arisha binti Misbahuddin</strong>. I’m pursuing my <strong>Diploma in Information Management</strong> and love learning about data, technology, and information systems.</p>
+
+    <h2 class="section-title">Biodata</h2>
+    <div class="card-container">
+      <div class="card">
+        <h3>Personal Details</h3>
+        <p><strong>Name:</strong> Nuril Arisha Binti Misbahuddin</p>
+        <p><strong>Age:</strong> 22</p>
+        <p><strong>Date of Birth:</strong> 30.03.2003</p>
+        <p><strong>Phone:</strong> 013-7088364</p>
+        <p><strong>Email:</strong> nrilarsha@gmail.com</p>
+        <p><strong>Favourite Colour:</strong> Pink</p>
+        <p><strong>Address:</strong> Changlun, Kedah</p>
+      </div>
+
+      <div class="card">
+        <h3>Interests</h3>
+        <p>I enjoy music, concerts, traveling, trying new foods, and exploring different cultures. I love capturing memories and discovering meaningful experiences.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Experience -->
+  <section id="experience">
+    <h2 class="section-title">Experience</h2>
+    <div class="card-container">
+      <div class="card">
+        <h3>Intern Web Developer</h3>
+        <p>Worked on responsive web pages, UI fixes, and enhancing user interaction.</p>
+      </div>
+
+      <div class="card">
+        <h3>Freelance Projects</h3>
+        <p>Developed landing pages, personal portfolios, and small business websites.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Education -->
+  <section id="education">
+    <h2 class="section-title">My Education Journey</h2>
+    <p class="muted">Here are the studies that shaped my passion for information systems and digital organization.</p>
+
+    <div class="edu-list">
+      <div class="edu-item">
+        <h4>🎓 Diploma in Information Management</h4>
+        <p><strong>Universiti Teknologi MARA (UiTM)</strong></p>
+        <p>Learned data management, digital records, metadata, information systems, and archival management.</p>
+      </div>
+
+      <div class="edu-item">
+        <h4>🏫 Sijil Pelajaran Malaysia (SPM)</h4>
+        <p><strong>SMK Bandar Baru Sintok</strong> — Graduated 2020</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Family -->
+  <section id="family">
+    <h2 class="section-title">Family</h2>
+    <p class="muted">A small look into the people who inspire and support me every day.</p>
+
+    <div class="card-container">
+      <div class="card">
+        <h3>Family Background</h3>
+        <p>I come from a supportive family of five who value kindness, growth, and lifelong learning.</p>
+      </div>
+
+      <div class="card">
+        <h3>Gallery</h3>
+        <p>Here are some memories with my family that I cherish deeply.</p>
+      </div>
+    </div>
+
+
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
+
+    <!-- 3 Family Images in Columns -->
+    <div style="
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 25px;
+        max-width: 800px;
+        margin: 0 auto;
+    ">
+        <div>
+            <img src="./My Personal Website - Nuril Arisha_files/family1.jpg" family="" photo="" 1"="" style="width: 100%; border-radius: 15px; box: 5px 5px 0px #d7a7a7;">
+        </div>
+
+        <div>
+            <img src="./My Personal Website - Nuril Arisha_files/family2.jpg" family="" photo="" 2"="" style="width: 100%; border-radius: 15px; box: 5px 5px 0px #d7a7a7;">
+        </div>
+
+        <div>
+            <img src="./My Personal Website - Nuril Arisha_files/family3.jpg" family="" photo="" 3"="" style="width: 100%; border-radius: 15px; box: 5px 5px 0px #d7a7a7;">
+        </div>
+    </div>
+
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    © 2025 My Personal Website — All Rights Reserved
+  </footer>
+
+
+</body></html>
